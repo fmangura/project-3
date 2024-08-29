@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react'
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, Route, Routes, HashRouter} from 'react-router-dom'
 
 import Home from './routes/Home'
 import Nav from './components/Nav'
@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <ExperienceProvider>
           <Nav />
           <Routes>
@@ -21,7 +21,7 @@ export default function App() {
           </Routes>
           <Footer />
         </ExperienceProvider>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
