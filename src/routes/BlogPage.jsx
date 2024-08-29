@@ -24,6 +24,14 @@ export default function BlogPage(){
 
     const [imgFocus, setImgFocus] = useState(0)
 
+    const goRight = () => {
+        if (imgFocus < images.length-1) setImgFocus(imgFocus => imgFocus + 1)
+
+    }
+
+    const goLeft = () => {
+        if (imgFocus > 0) setImgFocus(imgFocus => imgFocus - 1)
+    }
 
     return (
         <div className='blog-page'>
@@ -36,7 +44,14 @@ export default function BlogPage(){
                 { images.length > 0 ? 
                     <div className='carousel-container'>
                         <div className='image-carousel'>
-                            <img src={images[imgFocus]} className='focused-image'></img>
+                            <div className='focus-frame'>
+                                {imgFocus > 0 ? <h6 onClick={goLeft} className='directional-arrows'>Prev</h6> : <h6 className='directional-arrows' style={{width:'20px'}}></h6>}
+                                <img src={images[imgFocus]} className='focused-image'></img>
+                                {imgFocus < images.length-1 ? <h6 onClick={goRight} className='directional-arrows'>Next</h6> : <h6 className='directional-arrows' style={{width:'20px'}}> </h6>}
+                            </div>
+                            <div className='img-index'>
+                                <h6 className='img-number'>{imgFocus+1}/{images.length}</h6>
+                            </div>
                             <div className='image-list'>
                                 {images.map((image, id) => <img src={image} key={`${image}-${id}`} className='images-in-list' onClick={() => setImgFocus(id)}></img>)}
                             </div>
