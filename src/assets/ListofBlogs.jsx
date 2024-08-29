@@ -21,7 +21,7 @@ export default function ListofBlogs(){
             'title': 'Kitchen Finds | Its Finding',
             'subtitle': '',
             'date': 'June 22, 2024',
-            'images': Object.keys(import.meta.glob('/assets/KitchenFindsPics/*.png')),
+            'images': Object.keys(import.meta.glob('./KitchenFindsPics/*.png')),
             'text': `\n
             You see, I love cooking and anything kitchen-related: washing dishes, organizing cupboards, buying groceries, baking, and, yes, cooking. You remember how in the Pixar film Ratatouille, Remy explained how adding the cheese and mushroom together made a delicious blend of flavors and how he could cook with just his nose? That's how much I enjoy cooking. Now, I don't want to be a chef, but with a lot of things I do, I like to find a blend of the things I'm most passionate about. \n
             So for my back-end, I used Node.js, Express, and PostgreSQL to handle my database and API endpoints. My database consisted of a User and Recipes table. I want users to be able to save recipes to their own accounts and, admittedly, practice user authentication. The recipes were from the Spoonacular API, which contained a multitude of endpoints that allowed for ingredient list-based searches. Because requests are limited to 100 calls per day (free version), I opted to have the retrieved recipes that a user saved cached in my database. This way, I avoided caching large amounts of data for every searched recipe. \n            
