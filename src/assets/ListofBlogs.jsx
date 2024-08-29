@@ -7,7 +7,7 @@ export default function ListofBlogs(){
             'title': 'Appose | The Creation',
             'subtitle': '',
             'date': 'April 16, 2024',
-            'images': Object.keys(import.meta.glob('../../Appose ScreenShots/*.{png}', {eager: true, query: 'url', import: 'default'})),
+            'images': Object.keys(import.meta.glob('../../public/Appose ScreenShots/*.{png}')),
             'text': `\n
             As I look through Twitter, I typically see immensely polarized opinions. I don't know if it's a recent development in society or if it's just part of growing up, but people hyper-focus too much on one side of an argument. It has gotten so bad that any opposing argument is immediately deemed untrue without question. This issue is a direct consequence of numerous factors, but notably because of how social media—and its algorithms—feed information. I don't fault companies entirely, as it is the most effective way of gaining clicks, but it also does a lot of harm.\n 
             My solution is simple: show people what the other side is saying. It's not forcing anyone to ONLY see one perspective, but rather ALL perspectives. Particularly, posts/opinions that have a lot of influence and traction should be challenged. People should be exposed to varying opinions and given the opportunity to decide for themselves.\n
