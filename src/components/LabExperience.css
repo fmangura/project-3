@@ -1,0 +1,58 @@
+.exp-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exp-card {
+    background-color: #FFFFFF;
+    padding: 20px 50px;
+    margin: 20px;
+    filter: drop-shadow(0 5px 2px #0000004e);
+    width: 60%;
+}
+
+.exp-card h1 {
+    margin: 0;
+}
+
+.exp-card h2 {
+    margin: 0;
+}
+
+.exp-card p {
+    font-style: italic;
+    margin: 0;
+}
+
+.exp-card li {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 15px;
+}
+
+@media only screen and  (max-width: 480px){
+    .exp-card {
+        padding: 20px;
+        width: 80%;
+    }
+
+    .exp-card h1 {
+        font-size: 30px;
+    }
+
+    .exp-card h2 {
+        font-size: 20px;
+    }
+
+    .exp-card ul {
+        padding-left: 10px;
+    }
+
+    .exp-card li {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

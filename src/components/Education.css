@@ -1,0 +1,49 @@
+.degree {
+    font-size: 20px;
+    margin: 0;
+}
+
+.text h5 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.text p {
+    font-size: 10px;
+    font-style: italic;
+    margin: 0;
+}
+
+.Springboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.Springboard img{
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.Springboard img:hover{
+    cursor: none;
+}
+
+.UCSC {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+    .Springboard img{
+        display: none;
+    }
+
+    .Springboard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}

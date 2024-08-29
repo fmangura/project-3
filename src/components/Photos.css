@@ -1,0 +1,27 @@
+.photos-list {
+    padding: 40px;
+    max-width: 80%;
+    background-color: #000000f0;
+
+    line-height: 0;
+   
+    -webkit-column-count: 4;
+    -webkit-column-gap:   10px;
+    -moz-column-count:    4;
+    -moz-column-gap:      10px;
+    column-count:         4;
+    column-gap:           10px;
+}
+
+.photos-in-list {
+    margin: 10px;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.photocover {
+    position: absolute;
+    width: 100em;
+    height: 100em;
+    background-color: rgba(0, 0, 0, 0);
+}

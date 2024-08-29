@@ -1,0 +1,41 @@
+.resume-container {
+    position: absolute;
+    z-index: 10; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.845);
+    padding: 40px;
+    top: 0;
+}
+
+.resume-container img {
+    width: 35vw;
+    height: 100vh;
+}
+
+#close-resume {
+    margin-left: 10px;
+    opacity: 0.7;
+}
+
+#close-resume:hover {
+    opacity: 1;
+}
+
+.resume-container img:hover {
+    cursor: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .resume-container {
+        width: 100%;
+        padding: 0;
+        padding-top: 30px;
+    }
+    .resume-container img {
+        width: 75%;
+        height: 52%;
+    }
+}

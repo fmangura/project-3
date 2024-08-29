@@ -1,0 +1,38 @@
+h1 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+
+    margin: 10px;
+}
+
+.section-blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.allBlogs {
+    list-style: none;
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .allBlogs {
+        list-style: none;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+}
+

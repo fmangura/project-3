@@ -1,0 +1,83 @@
+.blogs-card{
+    width: 350px;
+    height: 280px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 5px 2px #0000004e);
+    margin: 15px 0px;
+}
+
+.header-blog {
+    background-color: #42679B;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.header-blog h1 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+
+    margin: 0;
+}
+
+.header-blog h6 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 15px;
+
+    margin: 0;
+}
+
+
+.header-blog p{
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 12px;
+
+    margin: 0;
+    margin-top: 10px;
+}
+
+.text-blog {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+
+.text-blog p{
+    height: 7em;
+    overflow: hidden;
+    margin: 0;
+    margin-bottom: 10px;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.text-blog a{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.text-blog a:hover {
+    cursor: pointer;
+    opacity: 1;
+}
