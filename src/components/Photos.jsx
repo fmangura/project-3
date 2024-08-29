@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import './Photos.css'
 
 export default function Photos() {
-    const [allPhotos, setAllPhotos] = useState(Object.keys(import.meta.glob('../../public/Photos/*.jpg')))
+    const [allPhotos, setAllPhotos] = useState(Object.values(import.meta.glob('../../public/Photos/*.jpg',{eager: true, import: 'default'})))
 
     const navigate = useNavigate()
 
