@@ -15,7 +15,7 @@ export default function Education() {
                         <h5>Springboard</h5>
                         <p>July 2023 - June 2024</p>
                     </section>
-                    <img src='../../Certificate.png'></img>
+                    <img src='Certificate.png'></img>
                 </div>
                 <div className='UCSC'>
                     <section className='text'>
@@ -40,7 +40,7 @@ export default function Education() {
                         <h5>Springboard</h5>
                         <p>July 2023 - June 2024</p>
                     </section>
-                    <img src='../../Certificate.png'></img>
+                    <img src='Certificate.png'></img>
                 </div>
             </div>
         }
