@@ -24,6 +24,8 @@ export default function BlogPage(){
 
     const [imgFocus, setImgFocus] = useState(0)
 
+    console.log(images)
+
     return (
         <div className='blog-page'>
             <a onClick={() => navigate('/')} id='home'>Home</a>
