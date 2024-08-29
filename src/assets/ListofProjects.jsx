@@ -14,7 +14,7 @@ export default function ListofProjects(){
         },
         {
             'name': 'Kitchen Finds',
-            'img': 'KitchenFindsPics/KitchenFindsLogo.svg',
+            'img': 'KitchenFindsLogo.svg',
             'demolink': 'https://kitchenfinds.onrender.com/',
             'gitlink': 'https://github.com/fmangura/KitchenFinds',
             'summary': 'A find by ingredients recipe app provided by Spoonful API. Simply add ingredients or pick from suggested list from your query and a list of recipes are presented to you! Choose from what you like to see the instructions or add to your list of ingredients!',
