@@ -8,7 +8,6 @@ import './Resume.css'
 export default function Resume({openResume}) {
     return (
         <div className='resume-container'>
-            <img src={ResumeImg}></img>
             <FontAwesomeIcon icon={faXmark} style={{fontSize:'30px', color:'white'}} onClick={() => openResume()} id='close-resume'/>
         </div>
     )

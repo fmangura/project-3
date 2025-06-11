@@ -91,7 +91,7 @@ export default function ContentMain({currActive, openResume, togMCD, togPH, togS
                     </section>
                     <section>
                         <FontAwesomeIcon className='icons' id='resume' icon={faFileLines} onClick={openResume} onMouseOver={() => hovering(3)}/>
-                        <p className={linkHover == 3 ? 'hovered' : 'silenced'}>View Resume</p>
+                        <p className={linkHover == 3 ? 'hovered' : 'silenced'}>Download Resume</p>
                     </section>
                 </div>
             </div>

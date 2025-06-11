@@ -10,6 +10,7 @@ import './Home.css'
 import Resume from '../components/Resume'
 
 
+
 export default function Home () {
     const { 
             currExpInfo,
@@ -21,14 +22,17 @@ export default function Home () {
     const [showResume, setShowResume] = useState(false)
 
     function openResume() {
+        let link = document.createElement("a");
+        link.href = '../../public/2025_Franz Manguray_SE_Resume.pdf';
+        link.download = '2025_Franz Manguray_SE_Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
         setShowResume(showResume => showResume = !showResume)
     }
 
     return (
         <div className='title-section'>
-            <div className={showResume ? '' : 'hidden'}>
-                <Resume openResume={openResume}/>
-            </div>
             <ContentMain currActive={currExperience} openResume={openResume} togMCD={togMCD} togPH={togPH} togSE={togSE}/>
             <div className='about-section' id='about-section'>
                 <AboutInfo currActive={currExpInfo} />

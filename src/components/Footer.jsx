@@ -41,7 +41,7 @@ export default function Footer() {
                 <a style={{border:'0'}} onClick={() => window.location = 'mailto:franznmanguray@gmail.com'}>Email</a>
             </div>
             <div id='copyright-notice'>
-                <p>&copy; 2024 Franz Manguray</p>
+                <p>&copy; 2025 Franz Manguray</p>
             </div>
         </div>      
     )
