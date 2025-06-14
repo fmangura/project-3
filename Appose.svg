@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1500 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.479442,0,0,0.664337,-85.5799,-541.673)">
+        <g transform="matrix(596.456,0,0,596.456,1229.66,1492.73)">
+        </g>
+        <text x="832.178px" y="1492.73px" style="font-family:'Krungthep';font-size:596.456px;">A</text>
+    </g>
+    <g transform="matrix(-0.463311,-8.4488e-17,5.46371e-17,-0.664337,1027.12,1441.67)">
+        <g transform="matrix(596.456,0,0,596.456,1229.66,1492.73)">
+        </g>
+        <text x="832.178px" y="1492.73px" style="font-family:'Krungthep';font-size:596.456px;fill:rgb(66,151,235);">A</text>
+    </g>
+    <g transform="matrix(0.402685,0,0,0.626152,37.58,-1299.91)">
+        <g transform="matrix(1.23843,0,0,1,-191.375,0)">
+            <g transform="matrix(570.209,0,0,570.209,1182.64,3008.53)">
+            </g>
+            <text x="802.649px" y="3008.53px" style="font-family:'Krungthep';font-size:570.209px;fill:rgb(187,191,199);">P</text>
+        </g>
+    </g>
+    <g transform="matrix(0.402685,0,0,0.626152,179.761,-1299.91)">
+        <g transform="matrix(1.23843,0,0,1,-191.375,0)">
+            <g transform="matrix(570.209,0,0,570.209,2173.2,3008.53)">
+            </g>
+            <text x="802.649px" y="3008.53px" style="font-family:'Krungthep';font-size:570.209px;fill:rgb(187,191,199);">P<tspan x="1085.7px 1368.76px 1604.6px 1840.43px " y="3008.53px 3008.53px 3008.53px 3008.53px ">OSSE</tspan></text>
+        </g>
+    </g>
+</svg>
