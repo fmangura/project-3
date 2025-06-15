@@ -7,7 +7,7 @@ export default function ListofBlogs(){
             'title': "Why It's So Interesting",
             'subtitle': 'Lego Builder Forever',
             'date': 'June 10, 2025',
-            'images': ['../../public/lego assembly.png'],
+            'images': ['/lego assembly.png'],
             'text': `\n
             When I was young, I didn’t reach for Lego sets with glossy manuals and pre-sorted pieces. To be honest, we couldn’t really afford them. Instead, I remember a tipped-over plastic bin full of mixed bricks—a donation from a family friend, probably. Some forty reds, twenty blues, a couple yellows, scattered grays, a lone Lego head, and a few peeled-off stickers. Staring at that pile, one might wonder what could anyone make of it?\n
             My Lego builds were never $1000 Death Stars or intricate sakura trees. Half the time, they collapsed before my mom could give her obligatory “Wow! You made that?”—which usually came just before my tantrum. But after the frustration faded, I’d scoop up the tear-drizzled bricks, sit back down, and start fixing. Make it stronger. Make it better. It evolved alongside my growing grasp of physics and defied the limits of my Toddler's Degree in Structural Engineering. Eventually, I could carry it around the house, flying it like a plane—even if, let’s be honest, it was obviously a car.\n
