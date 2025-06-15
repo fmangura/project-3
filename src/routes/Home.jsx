@@ -5,7 +5,7 @@ import ContentMain from '../components/ContentMain'
 import AboutInfo from '../components/AboutInfo'
 import Projects from '../components/Projects'
 import Blogs from '../components/Blogs'
-
+import ResumePDF from '/2025_Franz Manguray_SE_Resume.pdf'
 import './Home.css'
 import Resume from '../components/Resume'
 
@@ -23,7 +23,7 @@ export default function Home () {
 
     function openResume() {
         let link = document.createElement("a");
-        link.href = '../../public/2025_Franz Manguray_SE_Resume.pdf';
+        link.href = ResumePDF;
         link.download = '2025_Franz Manguray_SE_Resume.pdf';
         document.body.appendChild(link);
         link.click();
